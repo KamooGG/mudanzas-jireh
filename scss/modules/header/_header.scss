@@ -1,0 +1,41 @@
+.banner{
+    background-image: url(../img/image/bg-image.png);
+    width: 100vw;
+    height: 654px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    img{
+        margin-top: 40px;
+        margin-left: 32px;
+        width: 116px;
+        position: absolute;
+    }
+    &__menu{
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+        margin-top: 48px;
+        color: white;
+        li{
+            margin-right: 44px;
+        }
+    }
+    &__subtitle{
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    &__title{
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    &__button{
+        background-color: red;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+}

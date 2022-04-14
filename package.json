@@ -1,16 +1,11 @@
 {
-  "name": "mudanzas-jireh",
-  "version": "0.0.1",
-  "description": "Mudanzas Jireh",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "sass --watch scss/styles.scss:css/styles.css --style expanded & live-server",
     "startSass": "sass --watch scss/styles.scss:css/styles.css --style expanded",
     "startLS": "live-server"
   },
-  "author": "Cristian Blanco",
   "license": "MIT",
-  "homepage": "https://gitlab.com/JuanVejarano/templatesuperapp#readme",
   "dependencies": {
     "live-server": "^1.2.1",
     "sass": "^1.45.0"
